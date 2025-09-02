@@ -2,8 +2,8 @@ import tkinter as tk
 from tkinter import messagebox, filedialog
 from typing import Callable
 from model import SokobanModel, Tile, Entity
-from a2_support import *
-from a3_support import *
+from support import *
+from gui_support import *
 
 class FancyGameView(AbstractGrid):
     """Abstract view for a game grid with maze tiles, entities, and a player."""

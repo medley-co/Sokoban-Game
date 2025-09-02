@@ -1,4 +1,4 @@
-from a2_support import *
+from support import *
 
 COIN = '$'
 COIN_AMOUNT = 5
