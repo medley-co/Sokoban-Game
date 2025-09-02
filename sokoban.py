@@ -318,7 +318,7 @@ def main() -> None:
     """Initializes the game by creating a Tkinter root window and starts 
     the game within the maze file."""
     root = tk.Tk()
-    play_game(root, maze_file = 'maze_files/maze1.txt')
+    play_game(root, maze_file = 'maze_files/coin_maze.txt')
 
 
 if __name__ == "__main__":
