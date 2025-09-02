@@ -61,14 +61,20 @@ Each maze file in `maze_files/` has:
 - First line → Player’s starting **strength** and **moves**.
 - Following lines → Maze grid (characters represent tiles & entities).
 
-Example (`maze1.txt`):
+Example (`coin_maze.txt`):
 ```
-2 10
-WWWWWW
-WP  C W
-W   G W
-WWWWWW
+1 10
+WWWWWWWW
+WP$ W  W
+W S W  W
+W 3 WG W
+W    $ W
+W  M   W
+WWWWWWWW
 ```
+Shows up like this:
+![Coin Maze](images/gameplay.png)
+
 
 ---
 
